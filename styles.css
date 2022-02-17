@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  height: 500px;
+  background-color: black;
+  padding: 20px;
+}
+
+.row {
+  flex-wrap: wrap;
+  padding: 25px;
+  margin: 15px;
+  height: 130px;
+  background-color: rgb(3, 3, 51);
+  color: rgb(23, 197, 174);
+  border: 1px rgb(12, 60, 133) solid;
+}
+
+.time {
+  text-align: center;
+  font-size: 45px;
+  font-family: system-ui;
+}
+
+.date {
+  font-size: 25px;
+  text-align: center;
+}
+
+.leftBlock,
+.rightBlock {
+  /* padding: 15px; */
+  width: 50%;
+  /* height: 100px; */
+  text-align: center;
+}
+
+.stopwatch,
+.buttonLine {
+  width: 100%;
+}
+
+button {
+  bottom: unset;
+  margin: 2px;
+  padding: 5px;
+  min-width: 28px;
+  color: rgb(23, 197, 174);
+  background-color: rgb(3, 3, 51);
+  border: 1px grey solid;
+  border-radius: 4px;
+  transition: 0.7s;
+}
+
+button:hover {
+  color: rgb(59, 240, 216);
+  border: 1px rgb(34, 148, 194) solid;
+  box-shadow: -2px 1px 5px 4px rgb(194 238 185 / 20%);
+}
+
+.stopwatch {
+  font-size: 35px;
+}
+
+#row2,
+#row3 {
+  display: flex;
+}
+
+.loopWindow {
+  display: block;
+  margin: auto;
+  width: 75%;
+  height: 90px;
+  border: 1px solid rgb(12, 60, 133);
+  border-radius: 4px;
+  text-align: center;
+  overflow-y: hidden;
+
+}
+
+.countdown,
+.countdownTimer {
+  font-size: 40px;
+}
